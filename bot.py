@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 ARABIC_CURSES = [
     "كس", "كسمك", "كسم", "شرموط", "شرموطة",
     "متناك", "منيوك", "خول", "احا",
-    "زب", "طيز", "عرص", "ابن المتناكة" , "بتاعي"
+    "زب", "طيز", "عرص", "ابن المتناكة" , "بتاعي" , "بضان"
 ]
 
 TIMEOUT_MINUTES = 5
@@ -46,3 +46,4 @@ async def on_message(message):
     await bot.process_commands(message)
 
 bot.run(TOKEN)
+
